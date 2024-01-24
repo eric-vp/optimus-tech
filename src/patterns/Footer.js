@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Button from "../components/Button"
+import ButtonFooter from "../components/ButtonFooter"
 
 const FooterSection = styled.footer`
     background-color: var(--footer-bg-color);
@@ -7,12 +7,20 @@ const FooterSection = styled.footer`
     flex-direction: column;
     align-items: center;
     padding: 6rem;
+
+    @media screen and (max-width:500px) {
+        padding: 3rem 1.5rem
+    }
 `
 
 const Titulo = styled.h3`
     font-size: 2.25rem;
     color: var(--title-color);
     margin-bottom: 20px;
+
+    @media screen and (max-width:500px) {
+        font-size: 2rem;
+    }
 `
 
 const Descricao = styled.span`
@@ -34,6 +42,10 @@ const Input = styled.input`
     border: 2px solid var(--border-color);
     border-radius: 10px;
     margin-right: 1rem;
+
+    @media screen and (max-width:500px) {
+        width: auto;
+    }
 `
 
 const Copyrights = styled.span`
@@ -47,12 +59,12 @@ export default function Footer() {
             <Descricao>Seja o primeiro a saber quando novas vagas serão abertas!</Descricao>
             <Form action="">
                 <Input type="email" placeholder="Seu e-mail" />
-                <Button
+                <ButtonFooter
                     color="#fff"
                     backgroundcolor="var(--main-color)"
                 >
                     Cadastrar
-                </Button>
+                </ButtonFooter>
             </Form>
             <Copyrights>© 2022 OptimusTech. Todos os direitos reservados.</Copyrights>
         </FooterSection>

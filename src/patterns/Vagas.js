@@ -8,10 +8,19 @@ import devVagas from "../devVagas.json"
 
 const Section = styled.section`
     padding: 6rem;
+
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+        padding: 3rem 1.5rem;
+    }
 `
 
 const Imagem = styled.img`
     width: 100%;
+
+    @media screen and (max-width: 500px) {
+        display: none;
+    }
 `
 
 const VagasDiv = styled.div`
@@ -21,6 +30,10 @@ const VagasDiv = styled.div`
     align-items: center;
     width: 768px;
     margin: 0 auto;
+
+    @media screen and (max-width: 500px) {
+        width: auto;
+    }
 `
 
 export default function Vagas() {    

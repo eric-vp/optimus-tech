@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Button = styled.button`
+const ButtonFooter = styled.button`
     border: none;
     padding: .8rem 1rem;
     border-radius: .5rem;
@@ -12,13 +12,6 @@ const Button = styled.button`
     &:hover {
         cursor: pointer;
     }
+`
 
-@media screen and (max-width: 500px) {
-    color: #fff;
-    background: none;
-    padding: .8rem;
-    text-align: start;
-}
-`;
-
-export default Button;
+export default ButtonFooter;

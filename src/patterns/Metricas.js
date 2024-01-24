@@ -6,6 +6,13 @@ const MetricaContainer = styled.section`
     justify-content: space-between;
     margin-bottom: 6rem;
     padding: 0 8rem;
+
+    @media screen and (max-width: 500px) {
+        flex-direction: column;
+        padding: 0 1.5rem;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
 `
 
 export default function Metricas() {

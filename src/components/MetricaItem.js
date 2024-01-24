@@ -6,6 +6,11 @@ const ItemDiv = styled.div`
     gap: 1rem;
     flex-direction: column;
     align-items: start;
+
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        align-items: center;
+    }
 `
 
 const ItemH2 = styled.h2`

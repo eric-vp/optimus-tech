@@ -3,6 +3,10 @@ import avatar from "../assets/imagens/Avatar.png"
 
 const DepoimentosContainer = styled.div`
     padding: 0 8rem;
+
+    @media screen and (max-width: 500px) {
+        padding: 0;
+    }
 `
 
 const DepoimentosSection = styled.section`
@@ -14,6 +18,12 @@ const DepoimentosSection = styled.section`
     text-align: center;
     padding: 4rem;
     margin-bottom: 6rem;
+
+    @media screen and (max-width: 500px) {
+        padding: 1.5rem;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
 `
 
 const Span = styled.span`
@@ -28,6 +38,11 @@ const Paragrafo = styled.p`
     font-size: 2.25rem;
     margin-bottom: 2rem;
     font-weight: 600;
+
+    @media screen and (max-width: 500px) {
+        text-align: start;
+        font-size: 1.8rem;
+    }
 `
 
 const Imagem = styled.img`

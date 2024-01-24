@@ -6,6 +6,10 @@ const VagasContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     margin-bottom: 4rem;
+
+    @media screen and (max-width: 500px) {
+        margin-bottom: 2rem;
+    }
 `
 
 const VagasSpan = styled.span`
@@ -21,6 +25,10 @@ const VagasH3 = styled.h3`
     color: var(--title-color);
     font-size: 2.25rem;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 500px) {
+        text-align: center;
+    }
 `
 
 const VagasP = styled.p`

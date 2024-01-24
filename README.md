@@ -1,4 +1,4 @@
-# OPTIMUSTECH
+# OptimusTech
 
 ## Landing page para OptimusTech
 

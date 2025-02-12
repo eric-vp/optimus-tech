@@ -1,5 +1,7 @@
 # OptimusTech
 
+<img src="https://github.com/eric-vp/portfolio/blob/main/src/assets/optimus-tech.png" alt="OptimusTech">
+
 ## Landing page para OptimusTech
 
 - Essa landing page foi disponibilizada no projeto 7 *Days of Code* da Alura. A página foi criada com base em um *design* feito no **Figma**. 
